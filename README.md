@@ -1,1 +1,1 @@
-This app allows the user to enter in a key ingredient and receive back recepies with that ingredient in the. It also allows the user to enter in their own recipes
+This app allows the user to enter in a key ingredient and receive back recepies with that ingredient. It also allows the user to enter in their own recipes
