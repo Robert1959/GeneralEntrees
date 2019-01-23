@@ -1,0 +1,24 @@
+{
+  "name": "generalentrees",
+  "version": "1.0.0",
+  "description": "Heroku node Entree Recipe application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjohn219/GeneralEntrees.git"
+  },
+  "author": "General Entrees Dev Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjohn219/GeneralEntrees/issues"
+  },
+  "homepage": "https://github.com/kjohn219/GeneralEntrees#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "sequelize": "^4.42.0"
+  }
+}
