@@ -1,4 +1,4 @@
-// Product model field definition
+// Recipe model definition
 module.exports = function (connection, Sequelize) {
   const Recipe = connection.define('Recipe', {
 
@@ -48,20 +48,14 @@ module.exports = function (connection, Sequelize) {
     Image: {
       type: Sequelize.STRING,
       allowNull: true,
-    },
-
-    // Creating foreign key that points to CategoryId in the Category model
-    CategoryId: {
-      type: Sequelize.INTEGER,
-      references: {
-        // This is a reference to Category model
-        model: Category,
-        // This is the column name of the referenced model
-        key: 'CategoryId'
-      }
     }
-
   });
+
+  // Associations to other models
+  Recipe.associate = function(models) {
+    Recipe.hasMany(models.Ingredient);
+    Recipe.hasOne(models.Category);
+  };
 
   return Recipe;
 }

@@ -1,4 +1,4 @@
-// Product model field definition
+// Ingredient model definition
 module.exports = function (connection, Sequelize) {
   const Ingredient = connection.define('Ingredient', {
 
@@ -30,20 +30,18 @@ module.exports = function (connection, Sequelize) {
       validate: {
         notEmpty: true
       }
-    },
-
-    // Creating foreign key that points to RecipeId in the Recipe model
-    RecipeId: {
-      type: Sequelize.INTEGER,
-      references: {
-        // This is a reference to Recipe model
-        model: Recipe,
-        // This is the column name of the referenced model
-        key: 'RecipeId'
-      }
     }
-
   });
+
+  // Associations to Recipe model
+  Ingredient.associate = function(models) {
+    Ingredient.belongsTo(models.Recipe, {
+      foreignKey: {
+        allowNull: false
+      },
+      onDelete: 'cascade'
+    });
+  };
 
   return Ingredient;
 }
