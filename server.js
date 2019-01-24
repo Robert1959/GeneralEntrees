@@ -4,6 +4,9 @@
 // ******************************************************************************
 // *** Dependencies ***
 
+// requiring in .env
+require('dotenv').config();
+
 // requiring in the Express module
 const express = require('express');
 // requiring in the path package need for referening absolute paths used by the HTML files
