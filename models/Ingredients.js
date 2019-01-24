@@ -37,6 +37,7 @@ module.exports = function (connection, Sequelize) {
   Ingredient.associate = function(models) {
     Ingredient.belongsTo(models.Recipe, {
       foreignKey: {
+        name: 'recipeId',
         allowNull: false
       },
       onDelete: 'cascade'
