@@ -29,8 +29,8 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, '/public')));
 
 // *** Routes ***
-// require('./routes/api-routes.js')(app);
-// require('./routes/html-routes.js')(app);
+require('./routes/api-routes.js')(app);
+require('./routes/html-routes.js')(app);
 
 
 // Syncing sequelize models and then starting our Express app on listener port
