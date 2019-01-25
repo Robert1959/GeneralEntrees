@@ -51,10 +51,13 @@ module.exports = function (connection, Sequelize) {
     }
   });
 
-  // Associations to other models
-  Recipe.associate = function(models) {
-    Recipe.hasMany(models.Ingredient);
-  };
+ // Associations to other models
+ Recipe.associate = function(models) {
+  Recipe.hasMany(models.Ingredient, {
+    foreignKey: 'recipeId'
+  });
+};
+
 
   return Recipe;
 }

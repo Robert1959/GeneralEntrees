@@ -33,16 +33,13 @@ module.exports = function (connection, Sequelize) {
     }
   });
 
-  // Associations to Recipe model
-  Ingredient.associate = function(models) {
-    Ingredient.belongsTo(models.Recipe, {
-      foreignKey: {
-        name: 'recipeId',
-        allowNull: false
-      },
-      onDelete: 'cascade'
-    });
-  };
+// Associations to Recipe model
+Ingredient.associate = function(models) {
+  Ingredient.belongsTo(models.Recipe, {
+    foreignKey: 'recipeId',
+    onDelete: 'cascade'
+  });
+};
 
   return Ingredient;
 }
