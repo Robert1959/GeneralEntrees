@@ -2,8 +2,10 @@ const db = require('../models');
 
 module.exports = function(app) {
 
-  app.get('/api/recipies', function(req, res) {
-    db.Recipe.findAll({})
+  app.get('/api/recipes', function(req, res) {
+    db.Recipe.findAll({
+      where: req.query
+    })
     .then(function(data) {
       res.json(data);
     }).catch(function(error) {
@@ -29,6 +31,16 @@ module.exports = function(app) {
       res.json(data);
     }).catch(function(error) {
       res.json(error);
+    });
+  });
+
+  // Get all categories and return a JSON object
+  app.get('/api/categories', function(req, res) {
+    db.Category.findAll({})
+    .then(function(data) {
+      res.json(data);
+    }).catch(function(error) {
+      res.json({error: error});
     });
   });
   
