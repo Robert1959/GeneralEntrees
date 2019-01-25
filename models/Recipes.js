@@ -8,7 +8,7 @@ module.exports = function (connection, Sequelize) {
       autoIncrement: true
     },
 
-    Title: {
+    title: {
       type: Sequelize.STRING,
       allowNull: false,
       validate: {
@@ -17,7 +17,7 @@ module.exports = function (connection, Sequelize) {
     },
 
     // Example.. "Ingrediants for 3 servings".  Defaulting to "1", and validating an integer is used in case we want to do some future calculations for larger recipe servings.
-    Servings: {
+    servings: {
       type: Sequelize.INTEGER,
       allowNull: false,
       defaultValue: '1',
@@ -26,7 +26,7 @@ module.exports = function (connection, Sequelize) {
       }
     },
 
-    Instructions: {
+    instructions: {
       type: Sequelize.TEXT,
       allowNull: false,
       validate: {
@@ -34,18 +34,18 @@ module.exports = function (connection, Sequelize) {
       }
     },
 
-    PrepTime: {
+    prepTime: {
       type: Sequelize.STRING,
       allowNull: true,
     },
 
-    CookTime: {
+    cookTime: {
       type: Sequelize.STRING,
       allowNull: true,
     },
 
     // Referenging a path to a picture stored in a local directory.  Alternate method - https://grokonez.com/node-js/nodejs-save-file-image-to-mysql-by-sequelize-with-blob-type
-    Image: {
+    image: {
       type: Sequelize.STRING,
       allowNull: true,
     }
@@ -56,6 +56,10 @@ module.exports = function (connection, Sequelize) {
   Recipe.hasMany(models.Ingredient, {
     foreignKey: 'recipeId'
   });
+
+  Recipe.belongsTo(models.Category, {
+    foreignKey: 'categoryId'
+   });
 };
 
 

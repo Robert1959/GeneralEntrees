@@ -2,13 +2,13 @@
 module.exports = function (connection, Sequelize) {
   const Ingredient = connection.define('Ingredient', {
 
-    IngredientId: {
+    ingredientId: {
       type: Sequelize.INTEGER,
       primaryKey: true,
       autoIncrement: true
     },
 
-    Name: {
+    name: {
       type: Sequelize.STRING,
       allowNull: false,
       validate: {
@@ -17,14 +17,14 @@ module.exports = function (connection, Sequelize) {
     },
 
     // This will be used for something like 1.25 in the anout "one and a quarter" cups
-    Units: {
+    units: {
       type: Sequelize.DECIMAL(6, 2),
       allowNull: false,
       defaultValue: '0.00'
     },
 
     // This will be used for measurment units such as cups, ounces, teaspoons, etc
-    MeasurementUnit: {
+    measurementUnit: {
       type: Sequelize.STRING,
       allowNull: false,
       validate: {

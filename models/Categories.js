@@ -2,13 +2,13 @@
 module.exports = function (connection, Sequelize) {
   const Category = connection.define('Category', {
 
-    CategoryId: {
+    categoryId: {
       type: Sequelize.INTEGER,
       primaryKey: true,
       autoIncrement: true
     },
 
-    Name: {
+    name: {
       type: Sequelize.STRING,
       allowNull: false,
       validate: {
