@@ -16,7 +16,7 @@ module.exports = function (connection, Sequelize) {
       }
     },
 
-    PhptoUrl: {
+    PhotoUrl: {
       type: Sequelize.STRING,
       allowNull: true,
     }
