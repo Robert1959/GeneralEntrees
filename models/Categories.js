@@ -14,7 +14,13 @@ module.exports = function (connection, Sequelize) {
       validate: {
         notEmpty: true
       }
+    },
+
+    PhptoUrl: {
+      type: Sequelize.STRING,
+      allowNull: true,
     }
+
   }, {
     // don't add the timestamp attributes (updatedAt, createdAt)
     timestamps: false,
