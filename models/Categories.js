@@ -15,6 +15,10 @@ module.exports = function (connection, Sequelize) {
         notEmpty: true
       }
     }
+  }, {
+    // don't add the timestamp attributes (updatedAt, createdAt)
+    timestamps: false,
+
   });
 
   return Category;

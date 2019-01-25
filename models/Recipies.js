@@ -54,7 +54,6 @@ module.exports = function (connection, Sequelize) {
   // Associations to other models
   Recipe.associate = function(models) {
     Recipe.hasMany(models.Ingredient);
-    Recipe.hasOne(models.Category);
   };
 
   return Recipe;
