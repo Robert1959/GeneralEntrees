@@ -111,3 +111,40 @@ INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, Rec
 ('butter', 2, 'tablespoons', NOW(), NOW(), 6);
 INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
 ('chopped parsley', 1, 'teaspoon ', NOW(), NOW(), 6);
+
+
+
+
+
+
+
+
+
+-- EASY SANGRIA RECIPE
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('apples, diced into chunks', 2, 'whole', NOW(), NOW(), 11);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('orange, rind removed and diced into chunks', 1, 'whole', NOW(), NOW(), 11);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('standard bottle medium-bodied red Spanish wine, like Garnacha or Tempranillo', 1, '750ml', NOW(), NOW(), 11);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('brandy', .25, 'cup', NOW(), NOW(), 11);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('orange juice', .5, 'cup', NOW(), NOW(), 11);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('sparkling water, to serve', 1, '*optional*', NOW(), NOW(), 11);
+
+
+-- THAI ICED COFFEE 
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('very strong black regular grind coffee', 4, 'cups', NOW(), NOW(), 12);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('sugar', 4, 'tablespoons', NOW(), NOW(), 12);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('heavy cream', 4, 'tablespoons', NOW(), NOW(), 12);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('ground cardamom', 2, 'teaspoons', NOW(), NOW(), 12);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('almond flavoring', 1, 'teaspoon', NOW(), NOW(), 12);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('crushed ice', 0, '', NOW(), NOW(), 12);
