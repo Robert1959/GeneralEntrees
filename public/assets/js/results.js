@@ -9,13 +9,16 @@ $(function() {
   // get the category name and render to page
   $.get(`/api/category/${urlParams.get('categoryId')}`)
   .then(function(data){
-    $('.category-title').html(data.name)
+    
+    // if category doesn't exists return an error, else return recipes in the category
+    if(!data) {
+      $('#content').html(`<div class="row p-3 text-muted font-italic">Oops... We can't find a valid category.</div>`);
+    } else {
+      $('.category-title').html(data.name);
+      renderResults(urlParams.get('categoryId'));
+    }
   });
-  
-  renderResults(urlParams.get('categoryId'));
-
 });
-
 
 // Recipe Card Template
 const tmplRecipeCard = function(recipeId, title, photoUrl) {
@@ -31,6 +34,7 @@ const tmplRecipeCard = function(recipeId, title, photoUrl) {
   `
 }
 
+// Render the Recipes
 const renderRecipes = function(array) {
   // clear the recipes div
   $('#recipes').empty();
@@ -51,7 +55,16 @@ const renderRecipes = function(array) {
 
 // Get recipes based on category and render results
 const renderResults = function(categoryId) {
-  $.get(`/api/recipes?categoryId=${categoryId}`)
+  
+  // Set the API url
+  let apiUrl = `/api/recipes?categoryId=${categoryId}`;
+
+  // If no category is provided, change url to get all recipes
+  if(!categoryId) {
+    apiUrl = `/api/recipes`;
+  }
+
+  $.get(apiUrl)
   .then(function(data){
       renderRecipes(data);
   });
