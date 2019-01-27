@@ -75,10 +75,46 @@ To serve: Transfer chicken to a platter and pour mushrooms and sauce over top. S
 
 
 
+-- TRIPLE CHOCOLATE MOUSSE - https://kitchenconfidante.com/triple-chocolate-mousse-recipe
+INSERT INTO Recipes (Title, Servings, Instructions, PrepTime, CookTime, Image, createdAt, updatedAt, categoryId) VALUES
+('Triple Chocolate Mousse', 4, 'Using a mixing bowl and whisk attachment that has been chilled in the freezer, whip the heavy cream until stiff peaks form. Store in a tightly sealed container in the refrigerator until needed.
+Place semisweet, milk and white chocolates in three separate small bowls.
+In a small bowl, place cold water and sprinkle the gelatin. Let it stand for about 10 minutes, until the gelatin is soft.
+In a medium bowl, beat the egg yolks and sugar with a whisk until the mixture is light yellow and creamy. Place the milk in a small heavy saucepan over medium heat and bring to a gentle simmer. Ladle out about 1/2 of the warm milk and add it in a steady stream to the egg yolks, whisking continuously. Pour the warmed egg yolk mixture into the saucepan with the remaining milk and whisk well. Stir over medium heat for about 2-3 minutes, until the custard thickens and coats the back of a spoon. If you run a finger through the coated spoon, it should leave a line down the middle.
+Remove the custard from the heat and stir in the softened gelatin until it dissolves. Divide the custard amongst the three bowls of chocolate, pouring about 1/3 cup in each. Stir each chocolate well. If the chocolate does not melt, place on a double boiler/pan of simmering water and stir until melted. Allow the three chocolates to cool to room temperature.
+Divide the whipped cream and fold in about 3/4 cup into each bowl of chocolate. There will be some whipped cream left over, set that aside momentarily.
+Pour the first layer of chocolate mousse in the serving cups, spreading the top evenly. Freeze for 15 minutes. Continue this process with the remaining chocolate mousses. The mousse can be prepared up to two days in advance; cover each cup with plastic wrap and store in the refrigerator until ready to serve.
+Sweeten the remaining whipped cream with a about a tablespoon of confectioners sugar, whisk well. Before serving, place a dollop of cream and sprinkle with chocolate covered cocoa nibs.',
+'na', 'na', 'http://kitchenconfidante.com/wp-content/uploads/2012/02/Triple-Chocolate-Mousse-Kitchen-Confidante1.jpg', NOW(), NOW(), 4);
 
 
 
+--Chocolate Peanut Butter No-Bake Dessert - https://flavorite.net/chocolate-peanut-butter-no-bake-dessert/
+INSERT INTO Recipes (Title, Servings, Instructions, PrepTime, CookTime, Image, createdAt, updatedAt, categoryId) VALUES
+('Chocolate Peanut Butter No-Bake Dessert', 9, 'Crush 16 cookies; toss with the butter. Press into an ungreased 9-inch square dish; set aside. In a large bowl, beat the cream cheese, peanut butter and 1 cup confectioners’ sugar until smooth.
+Fold in half of the whipped topping. Spread over crust.
+Sprinkle with chopped peanut butter cups. In another large bowl, beat the milk, pudding mix and remaining confectioners’ sugar on low speed for 2 minutes Let stand for 2 minutes or until soft-set.
+Fold in remaining whipped topping. Spread over peanut butter cups. Crush remaining cookies; sprinkle over the top.
+Cover and chill for at least 3 hours.',
+'15 minutes', '3 hours', 'https://i2.wp.com/flavorite.net/wp-content/uploads/2015/07/Chocolate_Peanut_Butter_Des.jpg?w=500&ssl=1', NOW(), NOW(), 4);
 
+
+
+-- Guacamole - https://www.allrecipes.com/recipe/14231/guacamole/?internalSource=hub%20recipe&referringId=76&referringContentType=Recipe%20Hub&clickId=cardslot%206
+INSERT INTO Recipes (Title, Servings, Instructions, PrepTime, CookTime, Image, createdAt, updatedAt, categoryId) VALUES
+('Guacamole', 4, 'In a medium bowl, mash together the avocados, lime juice, and salt. Mix in onion, cilantro, and tomatoes. Stir in cumin. Refrigerate 1 hour for best flavor, or serve immediately.',
+'10 minutes', 'na', 'https://images.media-allrecipes.com/userphotos/720x405/4521556.jpg', NOW(), NOW(), 5);
+
+
+
+-- Peanut Butter Dip - https://selfproclaimedfoodie.com/peanut-butter-dip/
+INSERT INTO Recipes (Title, Servings, Instructions, PrepTime, CookTime, Image, createdAt, updatedAt, categoryId) VALUES
+('Peanut Butter Dip', 8, 'Add all ingredients to the bowl of a stand mixer. Beat on medium high speed until well combined and fluffy, about 5 minutes.
+Serve with sliced apples, pretzel sticks, etc.
+
+Recipe Notes:
+Yields 2 cups',
+'5 minutes', 'na', 'https://images.media-allrecipes.com/userphotos/720x405/4521556.jpg', NOW(), NOW(), 5);
 
 
 
@@ -91,7 +127,7 @@ When ready to serve, give the sangria one last stir and pour over a glass of ice
 
 
 
--- THAI ICED COFFEE -https://www.geniuskitchen.com/recipe/thai-iced-coffee-106595
+-- THAI ICED COFFEE - https://www.geniuskitchen.com/recipe/thai-iced-coffee-106595
 INSERT INTO Recipes (Title, Servings, Instructions, PrepTime, CookTime, Image, createdAt, updatedAt, categoryId) VALUES
 ('Thai Iced Coffee', 4, 'Add the cardamom to the ground coffee, and brew the coffee; when the coffee is brewed, add the sugar and almond flavoring, mix well and then let the coffee cool to lukewarm.
 Fill four 12 ounce highball glasses half-way to the rim with crushed ice and then fill two-thirds full with coffee; into each glass, stir about 1 tablespoon of heavy cream.
