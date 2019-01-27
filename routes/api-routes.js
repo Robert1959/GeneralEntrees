@@ -43,5 +43,17 @@ module.exports = function(app) {
       res.json({error: error});
     });
   });
+
+  app.get('/api/category/:id', function(req, res) {
+    db.Category.find({
+      where: {
+        categoryId: req.params.id
+      }
+    }).then(function(data) {
+      res.json(data);
+    }).catch(function(error) {
+      res.json({error: error});
+    });
+  });
   
 };
