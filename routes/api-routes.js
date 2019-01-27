@@ -47,7 +47,7 @@ module.exports = function(app) {
   app.get('/api/category/:id', function(req, res) {
     db.Category.find({
       where: {
-        id: req.params.id
+        categoryId: req.params.id
       }
     }).then(function(data) {
       res.json(data);
