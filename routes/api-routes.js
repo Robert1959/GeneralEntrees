@@ -45,7 +45,7 @@ module.exports = function(app) {
   });
 
   app.get('/api/category/:id', function(req, res) {
-    db.Recipe.find({
+    db.Category.find({
       where: {
         id: req.params.id
       }
