@@ -89,7 +89,7 @@ Sweeten the remaining whipped cream with a about a tablespoon of confectioners s
 
 
 
---Chocolate Peanut Butter No-Bake Dessert - https://flavorite.net/chocolate-peanut-butter-no-bake-dessert/
+-- Chocolate Peanut Butter No-Bake Dessert - https://flavorite.net/chocolate-peanut-butter-no-bake-dessert/
 INSERT INTO Recipes (Title, Servings, Instructions, PrepTime, CookTime, Image, createdAt, updatedAt, categoryId) VALUES
 ('Chocolate Peanut Butter No-Bake Dessert', 9, 'Crush 16 cookies; toss with the butter. Press into an ungreased 9-inch square dish; set aside. In a large bowl, beat the cream cheese, peanut butter and 1 cup confectioners’ sugar until smooth.
 Fold in half of the whipped topping. Spread over crust.
@@ -123,7 +123,7 @@ INSERT INTO Recipes (Title, Servings, Instructions, PrepTime, CookTime, Image, c
 ('Easy Sangaria', 6, 'Place all the ingredients, except the sparkling water, in a large pitcher and stir to combine. 
 Refrigerate sangria for 3 to 4 hours, up to overnight, before serving.
 When ready to serve, give the sangria one last stir and pour over a glass of ice. Top with sparkling water for some bubbles if desired.',
-'5 minutes', '', 'https://www.isabeleats.com/wp-content/uploads/2018/06/easy-sangria-small-6.jpg', NOW(), NOW(), 6);
+'5 minutes', 'na', 'https://www.isabeleats.com/wp-content/uploads/2018/06/easy-sangria-small-6.jpg', NOW(), NOW(), 6);
 
 
 
@@ -132,4 +132,4 @@ INSERT INTO Recipes (Title, Servings, Instructions, PrepTime, CookTime, Image, c
 ('Thai Iced Coffee', 4, 'Add the cardamom to the ground coffee, and brew the coffee; when the coffee is brewed, add the sugar and almond flavoring, mix well and then let the coffee cool to lukewarm.
 Fill four 12 ounce highball glasses half-way to the rim with crushed ice and then fill two-thirds full with coffee; into each glass, stir about 1 tablespoon of heavy cream.
 To achieve a layered effect, hold a spoon on top of the coffee and pour the cream slowly into the spoon so that the cream floats on top of the glass over the coffee.',
-'5 minutes', '', 'https://img.sndimg.com/food/image/upload/w_560,h_315,c_fill,fl_progressive,q_80/v1/img/recipes/10/65/95/JnO8yG7S7mJ1eQIJMr6h_thai-iced-coffee%20(1%20of%204).jpg', NOW(), NOW(), 6);
+'5 minutes', 'na', 'https://img.sndimg.com/food/image/upload/w_560,h_315,c_fill,fl_progressive,q_80/v1/img/recipes/10/65/95/JnO8yG7S7mJ1eQIJMr6h_thai-iced-coffee%20(1%20of%204).jpg', NOW(), NOW(), 6);

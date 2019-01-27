@@ -140,7 +140,7 @@ INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, Rec
 
 
 
---Chocolate Peanut Butter No-Bake Dessert
+-- Chocolate Peanut Butter No-Bake Dessert
 INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
 ('Oreo cookies, divided', 20, 'whole', NOW(), NOW(), 8);
 INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
