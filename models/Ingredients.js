@@ -26,10 +26,7 @@ module.exports = function (connection, Sequelize) {
     // This will be used for measurment units such as cups, ounces, teaspoons, etc
     measurementUnit: {
       type: Sequelize.STRING,
-      allowNull: false,
-      validate: {
-        notEmpty: true
-      }
+      allowNull: true,
     }
   });
 
