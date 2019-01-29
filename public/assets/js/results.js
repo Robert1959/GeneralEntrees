@@ -47,6 +47,7 @@ const renderRecipes = function(array) {
     for (let i = 0; i < array.length; i++) {
         let recipeId = array[i].recipeId;
         let title = array[i].title;
+        console.log (array[i].image);
         let photoUrl = `./assets/images/${array[i].image}`;
         $('#recipes').append(tmplRecipeCard(recipeId, title, photoUrl));
     }
