@@ -10,7 +10,7 @@ Serve immediately or keep warm in oven until ready to serve, but no longer than 
 
 Notes:
 You are simply dipping your bread slices into the egg mixture. If you leave your bread in the mixture for an extended amount of time, it will absorb more liquid and take longer to cook through.',
-'5 minutes', '5 minutes', 'https://addapinch.com/wp-content/uploads/2017/05/french-toast-recipe-DSC_2797-670.jpg', NOW(), NOW(), 1);
+'5 minutes', '5 minutes', './assets/images/french-toast-recipe.jpg', NOW(), NOW(), 1);
 
 
 
