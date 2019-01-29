@@ -18,7 +18,7 @@ You are simply dipping your bread slices into the egg mixture. If you leave your
 INSERT INTO Recipes (Title, Servings, Instructions, PrepTime, CookTime, Image, createdAt, updatedAt, categoryId) VALUES
 ('English-Muffin Breakfast Pizza', 1, 'Preheat the oven to 450 degrees. Line a small baking sheet with foil.
 Place the English muffin halves cut-side up on the baking sheet. Top each with tomato and drizzle with the olive oil. Sprinkle the Canadian bacon over the tomatoes, then top with the mozzarella. Bake for 10 to 12 minutes, or until the cheese is melted and beginning to brown. Sprinkle with basil.',
-'5 minutes', '12 minutes', 'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/8/13/2/FNM100109AskEllie003_s4x3.jpg.rend.hgtvcom.966.725.suffix/1382539172302.jpeg', NOW(), NOW(), 1);
+'5 minutes', '12 minutes', './assets/images/Breakfast Pizza.jpeg', NOW(), NOW(), 1);
 
 
 
@@ -28,7 +28,7 @@ INSERT INTO Recipes (Title, Servings, Instructions, PrepTime, CookTime, Image, c
 ('Harvest Salad', 6, 'Preheat oven to 375 degrees F (190 degrees C). Arrange walnuts in a single layer on a baking sheet. Toast in oven for 5 minutes, or until nuts begin to brown.
 In a large bowl, toss together the spinach, walnuts, cranberries, blue cheese, tomatoes, avocado, and red onion.
 In a small bowl, whisk together jam, vinegar, walnut oil, pepper, and salt. Pour over the salad just before serving, and toss to coat.',
-'15 minutes', 'na', 'https://images.media-allrecipes.com/userphotos/560x315/1656669.jpg', NOW(), NOW(), 2);
+'15 minutes', 'na', './assets/images/salad.jpg', NOW(), NOW(), 2);
 
 
 
@@ -41,7 +41,7 @@ Gently fry the sandwich, flipping once, until both sides of the bread are golden
  
 Tip:
 Aluminum foil helps keep food moist, ensures it cooks evenly, keeps leftovers fresh, and makes clean-up easy.',
-'5 minutes', '10 minutes', 'https://images.media-allrecipes.com/userphotos/560x315/4543319.jpg', NOW(), NOW(), 2);
+'5 minutes', '10 minutes', './assets/images/Pesto-Grilled-Cheese.jpg', NOW(), NOW(), 2);
 
 
 
@@ -57,7 +57,7 @@ Roast for 10-15 minutes, depending on the thickness of your stalks and how tende
 They should be tender when pierced with the tip of a knife.
 The tips of the spears will get very brown but watch them to prevent burning.
 They are great plain, but can be served with a light vinaigrette if you need something acidic to balance out your meal.',
-'10 minutes', '10 - 15 minutes', 'https://img.sndimg.com/food/image/upload/fl_progressive,c_fill,q_80,w_560,h_315/v1/img/recipes/50/84/7/picMcSyVd.jpg', NOW(), NOW(), 3);
+'10 minutes', '10 - 15 minutes', './assets/images/asparagus.jpg', NOW(), NOW(), 3);
 
 
 
@@ -71,7 +71,7 @@ Transfer browned breasts to a 13-by-9-inch pan, but do not discard oil in sauté
 While chicken is cooking, add mushrooms to the oil in the sauté pan and cook until lightly browned. Add wine and cook over medium heat until wine has reduced by half. Remove sauté pan from heat and swirl butter into liquid until melted.
 Remove chicken from oven and place back in sauté pan. Toss chicken with mushrooms and sauté 2 to 3 minutes or until done.
 To serve: Transfer chicken to a platter and pour mushrooms and sauce over top. Sprinkle with parsley and serve.',
-'15 minutes', '20 minutes', 'http://archive.jsonline.com/Services/image.ashx?domain=www.jsonline.com&file=Chicken_new2.jpg&resize=425*283', NOW(), NOW(), 3);
+'15 minutes', '20 minutes', './assets/images/chicken-marsala.jpg', NOW(), NOW(), 3);
 
 
 
@@ -85,7 +85,7 @@ Remove the custard from the heat and stir in the softened gelatin until it disso
 Divide the whipped cream and fold in about 3/4 cup into each bowl of chocolate. There will be some whipped cream left over, set that aside momentarily.
 Pour the first layer of chocolate mousse in the serving cups, spreading the top evenly. Freeze for 15 minutes. Continue this process with the remaining chocolate mousses. The mousse can be prepared up to two days in advance; cover each cup with plastic wrap and store in the refrigerator until ready to serve.
 Sweeten the remaining whipped cream with a about a tablespoon of confectioners sugar, whisk well. Before serving, place a dollop of cream and sprinkle with chocolate covered cocoa nibs.',
-'na', 'na', 'http://kitchenconfidante.com/wp-content/uploads/2012/02/Triple-Chocolate-Mousse-Kitchen-Confidante1.jpg', NOW(), NOW(), 4);
+'na', 'na', './assets/images/Triple-Chocolate-Mousse.jpg', NOW(), NOW(), 4);
 
 
 
@@ -96,14 +96,14 @@ Fold in half of the whipped topping. Spread over crust.
 Sprinkle with chopped peanut butter cups. In another large bowl, beat the milk, pudding mix and remaining confectioners’ sugar on low speed for 2 minutes Let stand for 2 minutes or until soft-set.
 Fold in remaining whipped topping. Spread over peanut butter cups. Crush remaining cookies; sprinkle over the top.
 Cover and chill for at least 3 hours.',
-'15 minutes', '3 hours', 'https://i2.wp.com/flavorite.net/wp-content/uploads/2015/07/Chocolate_Peanut_Butter_Des.jpg?w=500&ssl=1', NOW(), NOW(), 4);
+'15 minutes', '3 hours', './assets/images/Chocolate-Peanut-Butter.jpg', NOW(), NOW(), 4);
 
 
 
 -- Guacamole - https://www.allrecipes.com/recipe/14231/guacamole/?internalSource=hub%20recipe&referringId=76&referringContentType=Recipe%20Hub&clickId=cardslot%206
 INSERT INTO Recipes (Title, Servings, Instructions, PrepTime, CookTime, Image, createdAt, updatedAt, categoryId) VALUES
 ('Guacamole', 4, 'In a medium bowl, mash together the avocados, lime juice, and salt. Mix in onion, cilantro, and tomatoes. Stir in cumin. Refrigerate 1 hour for best flavor, or serve immediately.',
-'10 minutes', 'na', 'https://images.media-allrecipes.com/userphotos/720x405/4521556.jpg', NOW(), NOW(), 5);
+'10 minutes', 'na', './assets/images/guac.jpg', NOW(), NOW(), 5);
 
 
 
@@ -114,7 +114,7 @@ Serve with sliced apples, pretzel sticks, etc.
 
 Recipe Notes:
 Yields 2 cups',
-'5 minutes', 'na', 'https://images.media-allrecipes.com/userphotos/720x405/4521556.jpg', NOW(), NOW(), 5);
+'5 minutes', 'na', './assets/images/peanut-butter-dip.jpg', NOW(), NOW(), 5);
 
 
 
@@ -123,13 +123,13 @@ INSERT INTO Recipes (Title, Servings, Instructions, PrepTime, CookTime, Image, c
 ('Easy Sangaria', 6, 'Place all the ingredients, except the sparkling water, in a large pitcher and stir to combine. 
 Refrigerate sangria for 3 to 4 hours, up to overnight, before serving.
 When ready to serve, give the sangria one last stir and pour over a glass of ice. Top with sparkling water for some bubbles if desired.',
-'5 minutes', 'na', 'https://www.isabeleats.com/wp-content/uploads/2018/06/easy-sangria-small-6.jpg', NOW(), NOW(), 6);
+'5 minutes', 'na', './assets/images/easy-sangria.jpg', NOW(), NOW(), 6);
 
 
 
--- THAI ICED COFFEE - https://www.geniuskitchen.com/recipe/thai-iced-coffee-106595
+-- THAI ICED COFFEE - https://www.geniuskitcheasy-sangria.jpgructions, PrepTime, CookTime, Image, createdAt, updatedAt, categoryId) VALUES
 INSERT INTO Recipes (Title, Servings, Instructions, PrepTime, CookTime, Image, createdAt, updatedAt, categoryId) VALUES
 ('Thai Iced Coffee', 4, 'Add the cardamom to the ground coffee, and brew the coffee; when the coffee is brewed, add the sugar and almond flavoring, mix well and then let the coffee cool to lukewarm.
 Fill four 12 ounce highball glasses half-way to the rim with crushed ice and then fill two-thirds full with coffee; into each glass, stir about 1 tablespoon of heavy cream.
 To achieve a layered effect, hold a spoon on top of the coffee and pour the cream slowly into the spoon so that the cream floats on top of the glass over the coffee.',
-'5 minutes', 'na', 'https://img.sndimg.com/food/image/upload/w_560,h_315,c_fill,fl_progressive,q_80/v1/img/recipes/10/65/95/JnO8yG7S7mJ1eQIJMr6h_thai-iced-coffee%20(1%20of%204).jpg', NOW(), NOW(), 6);
+'5 minutes', 'na', './assets/images/thai-iced-coffee.jpg', NOW(), NOW(), 6);
