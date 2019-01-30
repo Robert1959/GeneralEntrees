@@ -103,7 +103,7 @@ button.owl-prev:hover {
     outline: none;
 }
 
-.owl-stage .card-img-top {
+.owl-carousel .card-img-top {
     width: 100%;
     height: 200px;
     object-fit: cover;

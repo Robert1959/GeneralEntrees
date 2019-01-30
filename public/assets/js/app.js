@@ -1,16 +1,8 @@
 // DOM Ready
 $(document).ready(function(){
-    $(".owl-carousel").owlCarousel({
-        items: 4,
-        slideBy: 1,
-        margin: 10,
-        loop: false,
-        nav: true,
-        navText: ['<span style="font-size:48px"><i class="fas fa-angle-left"></i></span>','<span style="font-size:48px"><i class="fas fa-angle-right"></i></span>'],
-        dots: false
-    });
+    
     getCategories();
-    //getCarousel();
+    getCarousel();
 });
 
 // Carousel Click Template
@@ -20,11 +12,13 @@ const carouselClick = function(index,activeFlag){
     `
 }
 // Carousel Card Template
-const tmplCarouselItem = function(photoUrl){
+const tmplCarouselItem = function(recipeId, photoUrl){
     return `
-        <div class="card">
-            <img src="${photoUrl}" class="card-img-top" alt="...">
-        </div>
+        <a href="/recipe?recipeId=${recipeId}">
+            <div class="card">
+                <img src="${photoUrl}" class="card-img-top" alt="...">
+            </div>
+        </a>
     `
 }
 
@@ -56,13 +50,23 @@ const renderCategories = function(array) {
 }
 
 const renderCarousel = function(array){
-    $('.owl-carousel').empty();
+    
+    const owl = $('.owl-carousel');
+    owl.html('');
     for (let i = 0; i < array.length; i++) {
+        let recipeId = array[i].recipeId;
         let photo = array[i].image;
-        $('#todCarousel .owl-carousel').append(tmplCarouselItem(photo));
-        //let item = tmplCarouselItem(photo);
-        //$('#todCarousel .owl-carousel').trigger('add.owl.carousel',[`<div>TEXTHERE</div>`,0]).trigger('refresh.owl.carousel');
+        owl.append(tmplCarouselItem(recipeId, photo));
     }
+    owl.owlCarousel({
+        items: 4,
+        slideBy: 1,
+        margin: 10,
+        loop: false,
+        nav: true,
+        navText: ['<span style="font-size:48px"><i class="fas fa-angle-left"></i></span>','<span style="font-size:48px"><i class="fas fa-angle-right"></i></span>'],
+        dots: false
+    });
 }
  
 // Get Carousel Data from database based on time of day
