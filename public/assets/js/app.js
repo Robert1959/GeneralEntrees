@@ -1,3 +1,17 @@
+// DOM Ready
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        items: 4,
+        slideBy: 1,
+        margin: 10,
+        loop: false,
+        nav: true,
+        navText: ['<span style="font-size:48px"><i class="fas fa-angle-left"></i></span>','<span style="font-size:48px"><i class="fas fa-angle-right"></i></span>'],
+        dots: false
+    });
+    getCategories();
+    //getCarousel();
+});
 
 // Carousel Click Template
 const carouselClick = function(index,activeFlag){
@@ -6,10 +20,10 @@ const carouselClick = function(index,activeFlag){
     `
 }
 // Carousel Card Template
-const carouselItem = function(photoUrl,activeFlag){
+const tmplCarouselItem = function(photoUrl){
     return `
-        <div class="carousel-item ${activeFlag}">
-            <img src="${photoUrl}" class="d-block w-100" alt="...">
+        <div class="card">
+            <img src="${photoUrl}" class="card-img-top" alt="...">
         </div>
     `
 }
@@ -42,15 +56,12 @@ const renderCategories = function(array) {
 }
 
 const renderCarousel = function(array){
-    $('#carouselItems').empty();
+    $('.owl-carousel').empty();
     for (let i = 0; i < array.length; i++) {
-        initFlag="";
-        if (i===0){
-            initFlag="active";
-        }
         let photo = array[i].image;
-        $('#carouselItems').append(carouselItem(photo, initFlag));
-        $('#carouselClicks').append(carouselClick(i, initFlag));
+        $('#todCarousel .owl-carousel').append(tmplCarouselItem(photo));
+        //let item = tmplCarouselItem(photo);
+        //$('#todCarousel .owl-carousel').trigger('add.owl.carousel',[`<div>TEXTHERE</div>`,0]).trigger('refresh.owl.carousel');
     }
 }
  
@@ -80,6 +91,3 @@ const getCategories = function() {
         renderCategories(data);
     })
 }
-  
-getCategories();
-getCarousel();

@@ -48,10 +48,64 @@ footer{
 #categories .card-img-top {
     width: 100%;
     height: 200px;
-    object-fit: fill;
+    object-fit: cover;
     border-top-left-radius: unset;
     border-top-right-radius: unset;
     border-bottom-left-radius: .25rem;
     border-bottom-right-radius: .25rem;
+    padding: 0;
+}
+
+/* Feed Carousel */
+.owl-carousel {
+    padding-bottom: 1rem;
+}
+
+.owl-prev {
+    position: absolute;
+    top: calc(50% - 120px / 2);
+    left: 0;
+    background-color: #fff !important;
+    height: 100px;
+    line-height: 100px;
+    width: 45px;
+    text-align: center;
+    box-shadow: 0 1px 3px #888;
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    border-radius: 0 3px 3px 0;
+    clip: rect(-10px,55px,110px,0);
+    opacity: .5;
+}
+
+.owl-next {
+    position: absolute;
+    top: calc(50% - 120px / 2);
+    right: 0;
+    background-color: #fff !important;
+    height: 100px;
+    line-height: 100px;
+    width: 45px;
+    text-align: center;
+    box-shadow: 0 1px 3px #888;
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    border-radius: 3px 0 0 3px;
+    clip: rect(-10px,45px,110px,-10px);
+    opacity: .5;
+}
+
+button.owl-next:hover,
+button.owl-prev:hover {
+    opacity: unset;
+    outline: none;
+}
+
+.owl-stage .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
     padding: 0;
 }
