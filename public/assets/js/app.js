@@ -18,9 +18,9 @@ const carouselItem = function(photoUrl,activeFlag){
 const categoryCard = function(id, name, photoUrl) {
    return `
         <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="card">
-                <a href="/results.html?categoryId=${id}" class="card-body">
-                    <h5 class="card-title">${name}</h5>
+            <div class="card mb-3">
+                <a href="/results.html?categoryId=${id}">
+                    <h5 class="card-title pl-2 pt-2">${name}</h5>
                     <img src="${photoUrl}" class="card-img-top" alt="...">
                 </a>
             </div>
