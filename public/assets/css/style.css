@@ -1,7 +1,6 @@
 html{
     position: relative;
-    min-height: 100%;
-   
+    min-height: 100%;  
 }
 
 body{
@@ -9,10 +8,104 @@ body{
     margin-bottom: 50px;
 }
 
+main {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
 footer{
     position: absolute;
     bottom: 0;
     height: 50px;
     width: 100%;
+    line-height: 50px;
     background-color: #343840;
+}
+
+/* mainCarousel */
+.carousel {
+    position: relative;
+    max-height: 350px;
+    overflow: visible;
+}
+  
+.carousel-control-next, .carousel-control-prev {
+    top: 0;
+    height: 250px;
+    width: 10%;
+    bottom: auto;
+}
+  
+.carousel-item::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0, #eaeded 100%);
+    margin-top: -200px;
+    height: 200px;
+    content: '';
+}
+
+#categories .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: unset;
+    border-top-right-radius: unset;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    padding: 0;
+}
+
+/* Feed Carousel */
+.owl-carousel {
+    padding-bottom: 1rem;
+}
+
+.owl-prev {
+    position: absolute;
+    top: calc(50% - 120px / 2);
+    left: 0;
+    background-color: #fff !important;
+    height: 100px;
+    line-height: 100px;
+    width: 45px;
+    text-align: center;
+    box-shadow: 0 1px 3px #888;
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    border-radius: 0 3px 3px 0;
+    clip: rect(-10px,55px,110px,0);
+    opacity: .5;
+}
+
+.owl-next {
+    position: absolute;
+    top: calc(50% - 120px / 2);
+    right: 0;
+    background-color: #fff !important;
+    height: 100px;
+    line-height: 100px;
+    width: 45px;
+    text-align: center;
+    box-shadow: 0 1px 3px #888;
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    border-radius: 3px 0 0 3px;
+    clip: rect(-10px,45px,110px,-10px);
+    opacity: .5;
+}
+
+button.owl-next:hover,
+button.owl-prev:hover {
+    opacity: unset;
+    outline: none;
+}
+
+.owl-carousel .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    padding: 0;
 }

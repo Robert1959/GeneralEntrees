@@ -1,3 +1,9 @@
+// DOM Ready
+$(document).ready(function(){
+    
+    getCategories();
+    getCarousel();
+});
 
 // Carousel Click Template
 const carouselClick = function(index,activeFlag){
@@ -6,21 +12,23 @@ const carouselClick = function(index,activeFlag){
     `
 }
 // Carousel Card Template
-const carouselItem = function(photoUrl,activeFlag){
+const tmplCarouselItem = function(recipeId, photoUrl){
     return `
-        <div class="carousel-item ${activeFlag}">
-            <img src="${photoUrl}" class="d-block w-100" alt="...">
-        </div>
+        <a href="/recipe?recipeId=${recipeId}">
+            <div class="card">
+                <img src="${photoUrl}" class="card-img-top" alt="...">
+            </div>
+        </a>
     `
 }
 
 // Category Card Template
 const categoryCard = function(id, name, photoUrl) {
    return `
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
-            <div class="card">
-                <a href="/results.html?categoryId=${id}" class="card-body">
-                    <h5 class="card-title">${name}</h5>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mb-3">
+                <a href="/results.html?categoryId=${id}">
+                    <h5 class="card-title pl-2 pt-2">${name}</h5>
                     <img src="${photoUrl}" class="card-img-top" alt="...">
                 </a>
             </div>
@@ -42,17 +50,23 @@ const renderCategories = function(array) {
 }
 
 const renderCarousel = function(array){
-    $('#carouselItems').empty();
+    
+    const owl = $('.owl-carousel');
+    owl.html('');
     for (let i = 0; i < array.length; i++) {
-        initFlag="";
-        if (i===0){
-            initFlag="active";
-        }
+        let recipeId = array[i].recipeId;
         let photo = array[i].image;
-        console.log(carouselItem(photo, initFlag));
-        $('#carouselItems').append(carouselItem(photo, initFlag));
-        $('#carouselClicks').append(carouselClick(i, initFlag));
+        owl.append(tmplCarouselItem(recipeId, photo));
     }
+    owl.owlCarousel({
+        items: 4,
+        slideBy: 1,
+        margin: 10,
+        loop: false,
+        nav: true,
+        navText: ['<span style="font-size:48px"><i class="fas fa-angle-left"></i></span>','<span style="font-size:48px"><i class="fas fa-angle-right"></i></span>'],
+        dots: false
+    });
 }
  
 // Get Carousel Data from database based on time of day
@@ -81,6 +95,3 @@ const getCategories = function() {
         renderCategories(data);
     })
 }
-  
-getCategories();
-getCarousel();
