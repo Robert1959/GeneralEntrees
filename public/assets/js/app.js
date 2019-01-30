@@ -17,7 +17,7 @@ const carouselItem = function(photoUrl,activeFlag){
 // Category Card Template
 const categoryCard = function(id, name, photoUrl) {
    return `
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="card">
                 <a href="/results.html?categoryId=${id}" class="card-body">
                     <h5 class="card-title">${name}</h5>
@@ -49,7 +49,6 @@ const renderCarousel = function(array){
             initFlag="active";
         }
         let photo = array[i].image;
-        console.log(carouselItem(photo, initFlag));
         $('#carouselItems').append(carouselItem(photo, initFlag));
         $('#carouselClicks').append(carouselClick(i, initFlag));
     }
