@@ -1,13 +1,17 @@
 html{
     position: relative;
-    min-height: 100%;
-   
+    min-height: 100%;  
 }
 
 body{
     background-color: #eaeded;
     margin-bottom: 50px;
 }
+
+main {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
 
 footer{
     position: absolute;
@@ -16,3 +20,27 @@ footer{
     width: 100%;
     background-color: #343840;
 }
+
+
+/* mainCarousel */
+.carousel {
+    position: relative;
+    max-height: 250px;
+    overflow: visible;
+  }
+  
+  .carousel-control-next, .carousel-control-prev {
+    top: 0;
+    height: 250px;
+    width: 10%;
+    bottom: auto;
+  }
+  
+  .carousel-item::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0, #eaeded 100%);
+    margin-top: -200px;
+    height: 200px;
+    content: '';
+  }
