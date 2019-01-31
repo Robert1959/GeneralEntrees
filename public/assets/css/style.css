@@ -109,3 +109,10 @@ button.owl-prev:hover {
     object-fit: cover;
     padding: 0;
 }
+
+/* Recipe Page */
+.recipePhoto img {
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+}

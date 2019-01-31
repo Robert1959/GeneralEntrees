@@ -56,4 +56,22 @@ module.exports = function(app) {
     });
   });
   
+  app.get('/api/ingredients', function(req, res) {
+    db.Ingredient.findAll({
+      where: req.query
+    }).then(function(data) {
+      res.json(data);
+    }).catch(function(error) {
+      res.json({error: error});
+    });
+  });
+
+  app.post('/api/ingredient', function(req, res) {
+    db.Ingredient.create(req.body)
+    .then(function(data) {
+      res.json(data);
+    }).catch(function(error) {
+      res.json(error);
+    });
+  });
 };
