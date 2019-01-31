@@ -116,3 +116,50 @@ button.owl-prev:hover {
     height: 350px;
     object-fit: contain;
 }
+
+
+/* FIX Nav-Collapse */
+@media screen and (min-width: 768px) {
+
+    nav {
+      background-color: #fff !important;
+      border-bottom: 6px solid #cccccc !important;
+    }
+    
+    .nav-link {
+      padding: 0px 15px !important;
+    }
+    
+    nav a {
+        padding: 0px 15px;
+        text-decoration: none;
+        line-height: 100%;
+    }
+    
+    nav a:link {
+        color: #777777;
+    }
+    
+    nav a:hover, a:hover:visited {
+        color: #00a6ce !important;
+    }
+    
+    nav a:visited {
+        color: #777777;
+    }
+    
+    nav a:first-child {
+        border-left: 0px none;
+        padding-left: 0px !important;
+    }
+    
+    nav a:nth-child(even) {
+        border-left: 1px solid #777777 !important;
+        border-right: 1px solid #777777 !important;
+    }
+    
+    nav a:last-child {
+        border-right: none;
+    }
+  
+  }
