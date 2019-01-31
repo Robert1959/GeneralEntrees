@@ -120,11 +120,6 @@ button.owl-prev:hover {
 
 /* FIX Nav-Collapse */
 @media screen and (min-width: 768px) {
-
-    nav {
-      background-color: #fff !important;
-      border-bottom: 6px solid #cccccc !important;
-    }
     
     .nav-link {
       padding: 0px 15px !important;
@@ -140,7 +135,7 @@ button.owl-prev:hover {
         color: #777777;
     }
     
-    nav a:hover, a:hover:visited {
+    nav a:hover, nav a:hover:visited {
         color: #00a6ce !important;
     }
     
