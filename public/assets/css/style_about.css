@@ -161,11 +161,9 @@
       background-color: whitesmoke;
     
   }
-
   .img {
     border-radius: 50%;
   }
-
 
 
   /* Footer */
@@ -181,8 +179,21 @@
     color: gray;
   }
 
-  
-/* Sized for screens up to 980 pxels. */
+
+
+/* Sized for screens up to 1440 pxels. */
+@media screen and (max-width: 1440px) {
+  #imgstyle1{
+    height: 200px; 
+    width: 200px;
+    }
+    #imgstyle2{
+      height: 200px; 
+      width: 200px;
+      }
+  }
+
+ /* Sized for screens up to 1072 pxels. */
 @media screen and (max-width: 1072px) {
   #imgstyle1{
     height: 145px; 
@@ -194,8 +205,7 @@
       }
   }
 
-
-  /* Sized for screens up to 768 pxels. */
+  /* Sized for screens up to 1000 pxels. */
   @media screen and (max-width: 1000px) {
 
     #imgstyle1{
