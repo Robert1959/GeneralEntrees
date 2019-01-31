@@ -11,11 +11,7 @@ module.exports = function (app) {
         };
     });
     app.get('/recipe', function (req, res) {
-        if(req.query['recipeId']) {
-            res.sendFile(path.join(__dirname, '../public/recipe.html'));
-        } else {
-            res.sendFile(path.join(__dirname, '../public/index.html'))
-        };
+            res.sendFile(path.join(__dirname, '../public/recipe.html'));        
     });
     app.get('*', function (req, res) {
         res.sendFile(path.join(__dirname, '../public/index.html'));
