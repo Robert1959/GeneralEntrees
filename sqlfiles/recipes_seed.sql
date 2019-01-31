@@ -133,3 +133,26 @@ INSERT INTO Recipes (Title, Servings, Instructions, PrepTime, CookTime, Image, c
 Fill four 12 ounce highball glasses half-way to the rim with crushed ice and then fill two-thirds full with coffee; into each glass, stir about 1 tablespoon of heavy cream.
 To achieve a layered effect, hold a spoon on top of the coffee and pour the cream slowly into the spoon so that the cream floats on top of the glass over the coffee.',
 '5 minutes', 'na', './assets/images/thai-iced-coffee.jpg', NOW(), NOW(), 6);
+
+
+-- GOURMET TUNA CASSEROLE - https://selfproclaimedfoodie.com/gourmet-tuna-casserole, PrepTime, CookTime, Image, createdAt, updatedAt, categoryId) VALUES
+INSERT INTO Recipes (Title, Servings, Instructions, PrepTime, CookTime, Image, createdAt, updatedAt, categoryId) VALUES
+('Gourmet Tuna Casserole', 4, 'Preheat oven to 400 degrees F.
+Boil pasta in large pot of salted water. About a minute before the pasta is cooked to al dente, add the peas. Drain and set aside.
+In 11x17 inch casserole dish, combine mushroom soup and drained tuna. Stir in pasta and peas.
+Combine bread crumbs, parmesan, and parsley. Spread evenly over top of casserole. Cover dish with foil. Cook in preheated oven for 20 minutes. After 20 minutes, remove foil, set oven to broil, and cook another 5 minutes to allow top to slightly brown.', '10 minutes', '35 minutes', './assets/images/gourmet-tuna-casserole.jpg', NOW(), NOW(), 3);
+
+-- BAKED TILAPIA - https://selfproclaimedfoodie.com/baked-tilapia , PrepTime, CookTime, Image, createdAt, updatedAt, categoryId) VALUES
+INSERT INTO Recipes (Title, Servings, Instructions, PrepTime, CookTime, Image, createdAt, updatedAt, categoryId) VALUES
+('Baked Tilapia', 4, 'Lay tilapia filets into a lightly greased 9x13 baking dish. Preheat oven to 400 degrees.
+In a small bowl, whisk together lemon juice, melted butter, and garlic. Pour over tilapia. Season with salt and pepper. Tuck lemon slices in (optional).
+Bake at 400 degrees for 10-12 minutes, until fish flakes easily with a fork.
+Serve hot with additional lemon wedges and garnish with parsley.', '5 minutes', '10 minutes', './assets/images/baked-tilapia.jpg', NOW(), NOW(), 3);
+
+-- CHICKEN NOODLE SOUP - https://selfproclaimedfoodie.com/chicken-noodle soup, PrepTime, CookTime, Image, createdAt, updatedAt, categoryId) VALUES
+INSERT INTO Recipes (Title, Servings, Instructions, PrepTime, CookTime, Image, createdAt, updatedAt, categoryId) VALUES
+('Chicken Noodle Soup', 11, 'In a large stockpot, heat butter on medium high heat. Add carrots, celery, onions and saute everything until the veggies become slightly tender. Add ginger, garlic and saute them for 1-2 minutes, making sure not to burn them.
+Add broth, thyme, oregano, bay leaf, salt, pepper and bring everything to a boil. Let simmer 5 minutes.
+Add chicken and egg noodles and let simmer for about 10 minutes or until the noodles become soft. Note: If you like more broth in your soup, you can add some more water or broth and cook for an additional 4-5 minutes.
+Check the flavor to see if you need to add more herbs or salt and pepper. Stir in parsley and serve hot.', '30 minutes', '30 minutes', './assets/images/chicken-noodle-soup.jpg', NOW(), NOW(), 3);
+
