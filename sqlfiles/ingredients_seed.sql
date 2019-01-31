@@ -270,7 +270,7 @@ INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, Rec
 INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
 ('chopped parsley', 2, 'tablespoons', NOW(), NOW(), 14);
 
--- BAKED TILAPIA 
+-- Chicken Noodle Soup
 INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
 ('butter', 2, 'tablespoons', NOW(), NOW(), 15);
 INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
@@ -297,3 +297,58 @@ INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, Rec
 ('diced cooked chicken', 3, 'half cups', NOW(), NOW(), 15);
 INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
 ('chopped parsley', 3, 'tablespoons cups', NOW(), NOW(), 15);
+
+
+-- Garlic Herb Shoulder Tender
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('shoulder tender steak', 1, 'steak', NOW(), NOW(), 16);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('rosemary, chopped', 1, 'head', NOW(), NOW(), 16);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('thyme, chopped', 3, 'heads', NOW(), NOW(), 16);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('granulated garlic', 1, 'teaspoon', NOW(), NOW(), 16);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('salt', 2, 'teaspoons', NOW(), NOW(), 16);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('pepper', 1, 'teaspoon', NOW(), NOW(), 16);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('butter, for cooking', 2, 'tablespoons', NOW(), NOW(), 16);
+
+
+-- DRUNKEN MUSSELS PASTA
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('mussels, cleaned and debearded', 2, 'lbs', NOW(), NOW(), 17);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('butter', 1, 'tablespoon', NOW(), NOW(), 17);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('garlic, minced or 2 tsp garlic paste', 4, 'cloves', NOW(), NOW(), 17);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('juice of lemon', 1, 'whole', NOW(), NOW(), 17);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('white wine', 2, 'cups', NOW(), NOW(), 17);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('bell pepper, diced', 1, 'whole', NOW(), NOW(), 17);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('spaghetti or linguine, cooked al dente', 2, 'cups', NOW(), NOW(), 17);
+
+
+-- Pan-Seared Pork Chops with Roasted Fennel and Tomatoe
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('olive oil', 2, 'tablespoons', NOW(), NOW(), 18);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('bone-in pork chops', 2, '12-oz', NOW(), NOW(), 18);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('salt', 1, 'teaspoon', NOW(), NOW(), 18);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('black pepper', .75, 'teaspoon', NOW(), NOW(), 18);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('cherry tomatoes (about 8 oz.)', 2, 'cups', NOW(), NOW(), 18);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('fennel bulb, cut into wedges, fronds reserved', 1, 'large', NOW(), NOW(), 18);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('garlic, crushed', 2, 'cloves', NOW(), NOW(), 18);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('fennel bulb, cut into wedges, fronds reserved', 1, 'large', NOW(), NOW(), 18);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('red wine vinegar', 2, 'tablespoons', NOW(), NOW(), 18);
