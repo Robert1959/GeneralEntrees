@@ -183,39 +183,40 @@
 
   
 /* Sized for screens up to 980 pxels. */
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1072px) {
   #imgstyle1{
-    height: 185px; 
-    width: 185px;
+    height: 145px; 
+    width: 145px;
     }
     #imgstyle2{
-      height: 185px; 
-      width: 185px;
+      height: 145px; 
+      width: 145px;
       }
   }
 
 
-  @media screen and (max-width: 1024px) {
+  /* Sized for screens up to 768 pxels. */
+  @media screen and (max-width: 1000px) {
+
     #imgstyle1{
-    height: 150; 
-    width: 150;
+    height: 50; 
+    width: 50;
     }
     #imgstyle2{
-      height: 150; 
-      width: 150;
+      height: 50; 
+      width: 50;
       }
   }
 
-
+/* Sized for screens up to 450 pxels. */
   @media screen and (max-width: 450px) {
     #imgstyle1{
-    height: 65px; 
-    width: 65px;
+    height: 45px; 
+    width: 45px;
     }
     #imgstyle2{
-      height: 65px; 
-      width: 65px;
+      height: 45px; 
+      width: 45px;
       }
   }
-
 
