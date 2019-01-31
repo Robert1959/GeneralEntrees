@@ -24,7 +24,7 @@ $(function() {
 const tmplRecipeCard = function(recipeId, title, photoUrl) {
   return `
   <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
-    <a href="#">
+    <a href="./recipe?recipeId=${recipeId}&mode=view">
       <div class="card mb-3">
         <img class="card-img-top" src="${photoUrl}" alt="photo of recipe">
         <p class="card-title p-1">${title}</p>
