@@ -225,3 +225,75 @@ INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, Rec
 ('almond flavoring', 1, 'teaspoon', NOW(), NOW(), 12);
 INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
 ('crushed ice', 0, '', NOW(), NOW(), 12);
+
+-- GOURMET TUNA CASSEROLE 
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('egg noodles', 12, 'ounces', NOW(), NOW(), 13);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('butter', 3, 'tablespoons', NOW(), NOW(), 13);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('flour', 3, 'tablespoons', NOW(), NOW(), 13);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('diced onion', 1, 'half', NOW(), NOW(), 13);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('garlic', 3, 'cloves', NOW(), NOW(), 13);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('chicken broth', 2, 'cups', NOW(), NOW(), 13);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('milk', 1, 'cup', NOW(), NOW(), 13);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('frozen peas', 2, 'cups', NOW(), NOW(), 13);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('tuna', 2, '6 ounce cans', NOW(), NOW(), 13);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('shredded chedder cheese', 2, 'cups', NOW(), NOW(), 13);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('bread crumbs', 1, 'cup', NOW(), NOW(), 13);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('grated parmesean cheese', 1, 'quarter cup', NOW(), NOW(), 13);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('olive oil', 2, 'teaspoons', NOW(), NOW(), 13);
+
+-- BAKED TILAPIA 
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('tilapia', 4, 'filets', NOW(), NOW(), 14);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('lemon juice', 3, 'tablespoons', NOW(), NOW(), 14);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('butter', 2, 'tablespoons', NOW(), NOW(), 14);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('garlic', 3, 'cloves', NOW(), NOW(), 14);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('salt and pepper', 0, 'to taste', NOW(), NOW(), 14);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('sliced lemon', 1, 'whole', NOW(), NOW(), 14);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('chopped parsley', 2, 'tablespoons', NOW(), NOW(), 14);
+
+-- BAKED TILAPIA 
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('butter', 2, 'tablespoons', NOW(), NOW(), 15);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('sliced carrots', 1, 'cup', NOW(), NOW(), 15);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('sliced celery', 1, 'cup', NOW(), NOW(), 15);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('diced onion', 1, 'whole', NOW(), NOW(), 15);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('grated ginger', 1, 'tablespoon', NOW(), NOW(), 15);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('minced garlic', 1, 'tablespoon', NOW(), NOW(), 15);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('chicken broth', 8, 'cups', NOW(), NOW(), 15);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('thyme', 1, 'half teaspoon', NOW(), NOW(), 15);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('oregano', 1, 'half teaspoon', NOW(), NOW(), 15);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('salt and pepper', 0, 'to taste', NOW(), NOW(), 15);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('egg noodles', 12, 'ounces', NOW(), NOW(), 15);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('diced cooked chicken', 3, 'half cups', NOW(), NOW(), 15);
+INSERT INTO Ingredients (Name, Units, MeasurementUnit, createdAt, updatedAt, RecipeId) VALUES
+('chopped parsley', 3, 'tablespoons cups', NOW(), NOW(), 15);
