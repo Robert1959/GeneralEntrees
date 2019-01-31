@@ -16,7 +16,7 @@ module.exports = function(app) {
   app.get('/api/recipe/:id', function(req, res) {
     db.Recipe.find({
       where: {
-        id: req.params.id
+        RecipeId: req.params.id
       }
     }).then(function(data) {
       res.json(data);

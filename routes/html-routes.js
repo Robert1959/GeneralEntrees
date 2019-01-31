@@ -10,6 +10,13 @@ module.exports = function (app) {
             res.sendFile(path.join(__dirname, '../public/index.html'))
         };
     });
+    app.get('/recipe', function (req, res) {
+        if(req.query['recipeId']) {
+            res.sendFile(path.join(__dirname, '../public/recipe.html'));
+        } else {
+            res.sendFile(path.join(__dirname, '../public/index.html'))
+        };
+    });
     app.get('*', function (req, res) {
         res.sendFile(path.join(__dirname, '../public/index.html'));
     });
